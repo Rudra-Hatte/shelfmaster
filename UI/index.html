@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,600,700" rel="stylesheet">
+    <title>GSMS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sidebar-menu.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body class="tooltips">
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header content rows-content-header">
+            <button class="button-menu-mobile">
+                <i class="fa fa-bars"></i> 
+            </button>
+
+            <!-- Navigation Bar -->
+            <div class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-collapse collapse">
+                        <ul class="breadcrumb">
+                            <a href="index.html">
+                                <i class="zmdi zmdi-view-dashboard zmdi-hc-fw" title="Dashboard"></i>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Right Side Content -->
+    <div class="right content-page">
+        <div class="body content rows scroll-y">
+            <form class="form-horizontal" action="">
+                <div class="box-info full" id="taskFormContainer">
+                    <h2>Grocery Store Management System</h2>
+
+                    <div class="panel-body pt-0">
+                        <div class="row mb-4">
+                            <div class="col-sm-12">
+                                <a href="order.html" class="btn btn-sm btn-primary pull-right ml-3">
+                                    New Order
+                                </a>
+                                <a href="manage-product.html" class="btn btn-sm btn-primary pull-right">
+                                    Manage Products
+                                </a>
+                            </div>
+                        </div>
+
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Order Number</th>
+                                    <th>Customer Number</th>
+                                    <th>Total Cost</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Dynamic order rows will go here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </form>
+
+            <!-- User Profile Modal -->
+            <div class="modal" id="userProfileModal" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body text-center">
+                            <!-- Content dynamically inserted -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Loading Spinner Modal -->
+            <div class="modal fade-scale" id="myModal" role="dialog" data-backdrop="static">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-body text-center">
+                            <img src="https://demo.test.cloint.com/assets/images/spinner.gif" width="40" style="margin: 60px auto;" alt="Loading...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
