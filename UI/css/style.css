@@ -1,0 +1,42 @@
+/* Body base style */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Header */
+header h2 {
+    font-weight: 600;
+}
+
+header nav a {
+    font-size: 24px;
+    color: #333;
+    margin-left: 10px;
+}
+
+.btn {
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+/* Table styling */
+.table th, .table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table thead {
+    background-color: #e9ecef;
+}
+
+/* Modal tweaks */
+.modal .modal-body img {
+    margin: 60px auto;
+}
+
+/* Utility classes */
+.mx-1 {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
