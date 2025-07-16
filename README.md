@@ -2,7 +2,7 @@
 
 A full-stack grocery store management system built using 3-tier architecture, simulating enterprise-grade software development. This project covers key components of a real-world application including product inventory, billing, and database integration.
 
-## 🚀 Features
+##  Features
 
 - Add, update, and delete grocery products
 - Manage inventory in real-time
